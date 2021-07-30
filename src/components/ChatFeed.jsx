@@ -46,7 +46,7 @@ const ChatFeed = (props) => {
     })
   }
 
-    if(!chat) return 'Loading ...';
+    if(!chat) return '';
 
     return(
       <div className="chat-feed">
